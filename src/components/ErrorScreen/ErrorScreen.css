@@ -1,0 +1,54 @@
+.offline-screen {
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vh - 4.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.offline-screen-image {
+    width: 25rem;
+    height: 25rem;
+}
+
+.offline-screen-msg {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.offline-screen-btn {
+    outline: none;
+    border: none;
+    color: var(--primary-foreground);
+    background-color: var(--destructive);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    opacity: 90%;
+}
+.offline-screen-btn:hover {
+    background-color: var(--destructive);
+    opacity: 100%;
+}
+
+.offline-screen-btn:focus {
+    background-color: var(--destructive);
+    opacity: 100%;
+}
+
+@media only screen and (max-width: 510px) {
+    .offline-screen-image {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .offline-screen-msg {
+        font-size: large;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+}

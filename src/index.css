@@ -1,0 +1,118 @@
+:root {
+    --background: hsl(0 0% 100%);
+    --foreground: hsl(20 14.3% 4.1%);
+    --card: hsl(0 0% 100%);
+    --card-foreground: hsl(20 14.3% 4.1%);
+    --popover: hsl(0 0% 100%);
+    --popover-foreground: hsl(20 14.3% 4.1%);
+    --primary: hsl(24 9.8% 10%);
+    --primary-light: hsla(24, 10%, 10%, 0.9);
+    --primary-foreground: hsl(60 9.1% 97.8%);
+    --secondary: hsl(60 4.8% 95.9%);
+    --secondary-foreground: hsl(24 9.8% 10%);
+    --muted: hsl(60 4.8% 95.9%);
+    --muted-foreground: hsl(25 5.3% 44.7%);
+    --accent: hsl(60 4.8% 95.9%);
+    --accent-foreground: hsl(24 9.8% 10%);
+    --destructive: hsl(0 84.2% 60.2%);
+    --destructive-foreground: hsl(60 9.1% 97.8);
+    --border: hsl(20 5.9% 90%);
+    --input: hsl(20 5.9% 90%);
+    --ring: hsl(20 14.3% 4.1%);
+    --radius: 0.5rem;
+    --grey-normal: #b2b2b2;
+    --silver: #aaaaaaff;
+    --silver-2: #bbbbbbff;
+    --silver-3: #ccccccff;
+    --platinum: #ddddddff;
+    --antiflash-white: #eeeeeeff;
+    --orange: #ffaf47;
+    --orange-light: hsla(34, 100%, 64%, 0.799);
+    --orange-hover: hsla(34, 100%, 64%, 0.904);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.extra-space {
+    height: 4.5rem;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: var(--platinum);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-foreground);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--accent-foreground);
+    opacity: 90%;
+}
+
+/* 
+*   MULTI USE COMPONENT CSS 
+*/
+
+/* .home-logo {
+  font-family: "Roboto Slab", serif;
+  font-size: 3rem;
+  margin: 1rem 0rem;
+} */
+
+/* .home-footer {
+  font-family: "Inter";
+  margin: 1rem 0rem;
+} */
+
+/* .primary-btn {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: var(--color-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+.primary-btn:hover {
+  background-color: var(--color-darker);
+}
+.primary-btn:active {
+  background-color: var(--color-light);
+}
+
+.primary-search > label > input {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-right: 0.2rem;
+}
+
+.primary-search > label > input:active {
+  outline: 1px solid var(--color-light);
+}
+
+.search-large {
+  font-size: large;
+  padding: 0.8rem 1.2rem !important;
+}
+
+.search-small {
+  padding: 0.5rem 1rem !important;
+} */

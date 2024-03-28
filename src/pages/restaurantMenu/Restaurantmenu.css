@@ -1,0 +1,40 @@
+.restaurant-menu {
+    width: 100%;
+    background-color: var(--background);
+}
+
+.restaurant-subpage {
+    max-width: 53rem;
+    margin: 0rem auto;
+    padding: 2rem 1rem;
+    padding-bottom: 0rem;
+}
+
+.restaurant-subpage-header {
+    margin-bottom: 3rem;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-heading {
+    margin: 0.5rem 0.4rem;
+    margin-bottom: 0.7rem;
+}
+
+.menu-heading-title {
+    font-weight: 600;
+}
+
+.menu-main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rems;
+    margin-bottom: 2rem;
+}
+
+.menu-main-title > span {
+    font-size: large;
+}

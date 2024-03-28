@@ -1,0 +1,39 @@
+.accordion-dishes-breaker {
+    border-bottom: 0.5px solid var(--silver);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.accordion-bar {
+    margin: 0.5rem 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-bar-title {
+    font-weight: 600;
+}
+.sub-title {
+    font-weight: 400;
+}
+
+.accordion-dishes {
+    display: flex;
+    flex-direction: column;
+}
+
+.open {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
+.accordion-separator {
+    height: 0.5rem;
+}
+
+.sub-separator {
+    border-bottom: 0.5px solid var(--silver);
+}
